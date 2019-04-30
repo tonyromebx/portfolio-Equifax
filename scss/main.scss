@@ -1,0 +1,24 @@
+//boostrap 4 CDN
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+//Base styles
+@import "base/base";
+@import "base/normalize";
+@import "base/viables";
+@import "base/mixins";
+
+//Layout styles
+@import "layout/header";
+@import "layout/nav";
+@import "layout/footer";
+
+//Modules styles
+@import "modules/blocks";
+@import "modules/buttons";
+@import "modules/components";
+@import "modules/typography";
+@import "modules/sections";
+
+//vendor
+
+
