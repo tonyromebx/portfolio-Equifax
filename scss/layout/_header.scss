@@ -1,6 +1,8 @@
+@import "../base/mixins";
+
 header {
-  background-image: url('../images/forest.png');
-  background-size: 100% auto;
-  background-repeat:no-repeat;
-  min-height: 484px;
+  @include background-attributes( 553px, url('../images/forest.png' ));
+}
+button {
+  @include btn-img();
 }

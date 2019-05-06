@@ -1,4 +1,12 @@
 
 .showcase-content {
-  text-align:center;
+    h1 {
+      font-family:$font-Roboto;
+    }
+    img {
+      margin-top:48px;
+    }
+    text-align:center;
+    color:$primary-white;
+    margin-top:55px;
 };

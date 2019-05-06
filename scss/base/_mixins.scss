@@ -1,0 +1,13 @@
+@mixin  background-attributes($height,$url) {
+  width: 100%;
+  background-image: $url;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat,no-repeat;
+  min-height: $height;
+}
+@mixin btn-img {
+  background-color: transparent;
+  border: none;
+}
+
