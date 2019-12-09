@@ -5,4 +5,5 @@ header {
 }
 button {
   @include btn-img();
+  cursor:pointer;
 }

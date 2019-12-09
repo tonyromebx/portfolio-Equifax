@@ -1,7 +1,7 @@
 @mixin  background-attributes($height,$url) {
   width: 100%;
   background-image: $url;
-  background-position: center;
+  background-position: top;
   background-size: 100%;
   background-repeat: no-repeat,no-repeat;
   min-height: $height;
@@ -9,5 +9,13 @@
 @mixin btn-img {
   background-color: transparent;
   border: none;
+}
+
+@mixin social-icons-bkgrd($url) {
+  background-image: $url;
+  height:24px;
+  width:24px;
+  cursor:pointer;
+  padding:10px;
 }
 
